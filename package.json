@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://itxraoAsad.github.io/Asad-portfolio",
+  "homepage": "git@github.com:itxraoAsad/Asad-portfolio.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "deploy":"gh-pages -d"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
