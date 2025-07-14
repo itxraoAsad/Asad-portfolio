@@ -27,9 +27,6 @@ function App() {
       <ContactMeMain/>
       <FooterMain/>
 
-     
-      
-
 
     </main>
   );
