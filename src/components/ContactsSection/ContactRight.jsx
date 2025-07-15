@@ -3,7 +3,7 @@ import React from 'react';
 const ContactRight = () => {
   return (
     <div className="bg-[#4A2C2A] p-6 rounded-lg shadow-lg max-w-md w-full relative ">
-      <h2 className="text-3xl text-[#00cfff] mb-4 max-[400px]:text-2xl max-[400px]:ml-96">Contact Me</h2>
+      <h2 className="text-3xl text-[#00cfff] mb-4 max-[400px]:text-2xl ">Contact Me</h2>
       <h3 className="text-xl text-orange-500 mb-4 font-semibold">Get In Touch</h3>
       <p className="text-white mb-6 max-[400px]:text-wrap">
         Feel free to reach out if you'd like to collaborate. You are just a few clicks away!
