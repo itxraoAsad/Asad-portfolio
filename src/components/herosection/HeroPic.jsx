@@ -11,7 +11,7 @@ const HeroPic = () => {
       initial='hidden'
       whileInView='show'
       viewport={{ once: true, amount: 0.3 }}
-      className='relative flex items-center justify-center w-full h-[600px] max-[600px]:h-[600px]  overflow-hidden'
+      className='relative flex items-center justify-center w-full h-[600px] max-[600px]:h-[600px]  overflow-hidden max-[400px]:mt-4 ' 
     >
       <img
         src={HexaPic}
