@@ -4,7 +4,7 @@ const ProjectSingle = ({ name, year, image, align }) => {
   const isLeftAlign = align === 'left';
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 bg-gray-900 p-4  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
     
       <div className={`w-full md:w-1/2 text-center md:text-${isLeftAlign ? 'left' : 'right'}`}>
         <h2 className="text-3xl sm:text-4xl font-bold text-[#fb9718] mb-4">{name}</h2>

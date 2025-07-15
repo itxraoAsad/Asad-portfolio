@@ -4,7 +4,7 @@ import HeroPic from './HeroPic'
 
 const HeroMian = () => {
   return (
-    <div className="pt-40 pb-16">
+    <div className="pt-20 pb-10 ">
     
     <div className='flex flex-col md:flex-row items-center justify-between '>
       <HeroText />
