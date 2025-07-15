@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Expr from '../../../public/imgs/experience-image.png'
 const ExperienceImg = () => {
   return (
     <div>
         <div>
-            <img src="../../imgs/experience-image.png" alt="" className='h-[300px]' />
+            <img src={Expr} alt="" className='h-[300px]' />
         </div>
     </div>
   )

@@ -1,7 +1,8 @@
 import React from 'react'
 import { BsHexagon } from "react-icons/bs";
 import {motion} from 'framer-motion';
-import {fadeIn} from '../../../framerMotion/Variants';
+import {fadeIn} from '../../framerMotion/Variants';
+import HexaPic from './../../../public/imgs/HexaPic.png'
 const HeroPic = () => {
   return (
     <motion.div
@@ -13,7 +14,7 @@ const HeroPic = () => {
 
       
 <img
-  src="../../imgs/HexaPic.png"
+  src={HexaPic} 
   alt="Hero"
   className="w-[450px] h-[450px] object-top rounded-[50%]  "
 />

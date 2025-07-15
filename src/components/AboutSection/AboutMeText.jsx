@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion';
-import {fadeIn} from './src/framerMotion/Variants';
+import {fadeIn} from '../../framerMotion/Variants';
 const AboutMeText = () => {
   return (
     <div
@@ -18,6 +18,8 @@ const AboutMeText = () => {
         </p>
     </div>
   )
+  //ye yaham kia kr raha hai -__-
+  // ya b github pr upload kr rha tha tb sara nizam dehm behm ho gya 
 }
 
 export default AboutMeText

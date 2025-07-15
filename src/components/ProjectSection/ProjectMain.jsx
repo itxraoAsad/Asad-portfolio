@@ -2,19 +2,21 @@ import React from 'react'
 import ProjectSingle from './ProjectSingle'
 import ProjectText from './ProjectText'
 
+import image1 from '../../../public/imgs/website-img-4.jpg'
+import image2 from '../../../public/imgs/website-img-3.jpg'
 
 
 const Projects =[
    {
     name:'Online Store',
     year:'Mar 2025',
-    image:'../../imgs/website-img-1.jpg', 
+    image:image1, 
     align:'right'
    },
    {
     name:'Quiz App',
     year:'Apr 2025',
-    image:'../../imgs/website-img-3.jpg', 
+    image:image2, 
     align:'right'
    }
 ]
