@@ -11,7 +11,7 @@ const ProjectSingle = ({ name, year, image, align }) => {
         <h3 className="text-xl font-light text-gray-300">{year}</h3>
         <div className="mt-4">
           <a
-            href="#"
+            href="https://github.com/itxraoAsad/E-commerce"
             className="inline-flex items-center text-blue-400 hover:underline"
           >
             View <span className="ml-2">→</span>
