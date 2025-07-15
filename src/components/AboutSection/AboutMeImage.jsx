@@ -11,7 +11,7 @@ const AboutMeImage = () => {
     initial='hidden'
     whileInView='show'
     viewport={{once: true, amount: 0.2}}
-     className='h-[500px] w-[300px] relative '>
+     className='h-[500px] w-[300px] relative max-[600px]:ml-6 max-[600px]:h-[400px]'>
         <div className='h-[500px] w-[300px] rounded-[100px] absolute overflow-hidden '>
             <img src={aboutImg} alt="aboutme" className='h-full w-auto object-cover'/>
         </div>
