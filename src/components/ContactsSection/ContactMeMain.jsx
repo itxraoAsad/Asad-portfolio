@@ -6,7 +6,7 @@ import ContactRight from './ContactRight';
 
 const ContactMeMain = () => {
   return (
-    <div id='contacts' className="flex flex-col md:flex-row items-center justify-center gap-8 p-8 bg-gray-900 min-h-screen overflow-hidden">
+    <div id='contacts' className="flex flex-col md:flex-row items-center justify-center gap-8 p-8 bg-gray-900 min-h-screen  ">
       <motion.div
         variants={fadeIn('left', 0.2)}
         initial="hidden"
